@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>banque_de_sons</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link href="https://fonts.googleapis.com/css?family=Chewy&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav id="flexcontainer1">
+    <div id="flexcontainer2">
+      <h1 class=titre>Parc zoologique</h1>
+    </div>
+      <div id=flexcontainer3>
+        <div class=menu_element> <a class="onglet_menu" title="Accueil" href="index.html">
+              Accueil</a>
+        </div>
+        <div class=menu_element>
+            <ul>
+              <li class="deroulant"><a class="menu" href="index.html"> Menu </a>
+                <ul class="sous">
+                  <li> <a href="index.html"> Accueil </a> </li>
+                  <li> <a href="animaux.html"> Animaux </a> </li>
+                  <li> <a href="banque_de_sons.html"> Banque de sons </a> </li>
+                  <li> <a href="visite_virtuelle.html"> visite virtuelle </a> </li>
+                  <li> <a href="index.html"> Forum </a> </li>
+                  <li> <a href="contact.html"> Contact </a> </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        <div class=menu_element> <a class="onglet_menu" title="Animaux" href="animaux.html">
+              Animaux</a>
+        </div>
+        <div class=menu_element> <a class="onglet_menu" title="Banque de sons" href="banque_de_sons.html">
+              Banque de sons</a>
+        </div>
+        <div class=menu_element> <a class="onglet_menu" title="Visite virtuelle" href="visite_virtuelle.html">
+              Visite virtuelle</a>
+        </div>
+        <div class=menu_element> <a class="onglet_menu" title="Forum" href="index.html">
+              Forum</a>
+        </div>
+        <div class=menu_element> <a class="onglet_menu" title="Contact" href="contact.html">
+              Contact</a>
+        </div>
+      </div>
+  </nav>
+  <div id=contenu>
+  <br>
+    <div> <audio src="jungle.mp3" controls autoplay=true autostart> </div>
+      <!-- la musique marche en autoplay sur edge, pas sous firefox ou explorer -->
+
+  <table summary="banque_de_sons">
+    <caption> <h2> Cris des animaux </h2></caption>
+    <tr>
+      <th>
+        Animal
+      </th>
+      <th>
+        Cri de l'animal
+      </th>
+
+      <tr>
+        <td> <img class="imganimal" src="tigre.jpg"  alt="photo tigre"/></td>
+        <td> <audio src="tigre.mp3" controls> </td>
+      </tr>
+      <tr>
+        <td><img class="imganimal" src="elephant.jpg" alt="photo elephant"/></td>
+        <td> <audio src="elephant.mp3" controls> </td>
+      </tr>
+      <tr>
+        <td><img class="imganimal" src="leopard.jpg" alt="photo leopard"/></td>
+        <td> <audio src="leopard.mp3" controls> </td>
+      </tr>
+      <tr>
+        <td><img class="imganimal" src="lion.jpg" alt="photo lion"/></td>
+        <td> <audio src="lion.mp3" controls> </td>
+      </tr>
+  </table>
+</div>
+</body>

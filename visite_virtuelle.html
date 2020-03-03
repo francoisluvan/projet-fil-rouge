@@ -1,0 +1,76 @@
+    <!DOCTYPE html>
+
+    <html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>visite_virtuelle</title>
+        <link rel="stylesheet" type="text/css" href="index.css" />
+        <link href="https://fonts.googleapis.com/css?family=Chewy&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <nav id="flexcontainer1">
+        <div id="flexcontainer2">
+          <h1 class=titre>Parc zoologique</h1>
+        </div>
+          <div id=flexcontainer3>
+            <div class=menu_element> <a class="onglet_menu" title="Accueil" href="index.html">
+                  Accueil</a>
+            </div>
+            <div class=menu_element>
+                <ul>
+                  <li class="deroulant"><a class="menu" href="index.html"> Menu </a>
+                    <ul class="sous">
+                      <li> <a href="index.html"> Accueil </a> </li>
+                      <li> <a href="animaux.html"> Animaux </a> </li>
+                      <li> <a href="banque_de_sons.html"> Banque de sons </a> </li>
+                      <li> <a href="visite_virtuelle.html"> visite virtuelle </a> </li>
+                      <li> <a href="index.html"> Forum </a> </li>
+                      <li> <a href="contact.html"> Contact </a> </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            <div class=menu_element> <a class="onglet_menu" title="Animaux" href="animaux.html">
+                  Animaux</a>
+            </div>
+            <div class=menu_element> <a class="onglet_menu" title="Banque de sons" href="banque_de_sons.html">
+                  Banque de sons</a>
+            </div>
+            <div class=menu_element> <a class="onglet_menu" title="Visite virtuelle" href="visite_virtuelle.html">
+                  Visite virtuelle</a>
+            </div>
+            <div class=menu_element> <a class="onglet_menu" title="Forum" href="index.html">
+                  Forum</a>
+            </div>
+            <div class=menu_element> <a class="onglet_menu" title="Contact" href="contact.html">
+                  Contact</a>
+            </div>
+          </div>
+      </nav>
+    <div id=contenu>
+      <h2> Visite virtuelle du zoo</h2>
+      <table>
+        <tr>
+          <td>
+            <p> Nos petits singes en vidéo. </p>
+          </td>
+          <td>
+            <video type=video/mp4 controls=controls width=300px height=300px poster="singe.png" autoplay="autoplay"   autostart preload>
+              <source src="singe.mp4"  > <!-- la vidéo marche en autoplay sur edge, pas sous firefox -->
+              </source>
+            </video>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p> Des léopards dans cette vidéo !</p>
+          </td>
+          <td>
+            <video type=video/mp4 controls=controls width=300px height=300px poster="leopardvid.png" preload >
+              <source src="leopard.mp4"    >
+              </source>
+            </video>
+          </td>
+      </tr>
+    </div>
+      <br>
